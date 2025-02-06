@@ -25,7 +25,7 @@ function calculaIMC(altura, peso){
 
 
   function converterDolarParaReal(valorEmDolar) {
-    let cotacaoDolar = 4.80;
+    let cotacaoDolar = 5.80;
     let valorEmReais = valorEmDolar * cotacaoDolar;
     return valorEmReais.toFixed(2);
   }
